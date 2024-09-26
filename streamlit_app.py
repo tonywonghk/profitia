@@ -3,13 +3,13 @@ import pandas as pd
 import streamlit as st
 
 # Show the page title and description.
-st.set_page_config(page_title="Profitia", page_icon="🎬")
-st.title("🎬 Profitia")
+st.set_page_config(page_title="Profitia", page_icon="📈")
+st.title("📈 Profitia")
 st.write(
     """
-    This app visualizes data from [The Movie Database (TMDB)](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
-    It shows which movie genre performed best at the box office over the years. Just 
-    click on the widgets below to explore!
+
+    This app visualizes my trading data from server, helping me to anaylze the market.
+    
     """
 )
 
